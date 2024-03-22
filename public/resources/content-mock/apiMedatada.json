@@ -2,10 +2,6 @@
     "apiInfo": {
         "apiName": "AccommodationAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/accommodation-mini.jpeg"
@@ -17,10 +13,6 @@
     "apiInfo": {
         "apiName": "LeisureActivitiesAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Leisure Activities API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/leisure.jpeg",
                 "api-detail-page-image": "/resources/images/leisure-mini.jpeg"
@@ -32,10 +24,6 @@
     "apiInfo": {
         "apiName": "FamousAttractionsAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/attractions-mini.jpeg"
@@ -47,10 +35,6 @@
     "apiInfo": {
         "apiName": "HotelAvailabilityAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/hotel-availability-mini.jpeg"
@@ -62,10 +46,6 @@
     "apiInfo": {
         "apiName": "AirlineDealsAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/airline-deals-mini.jpeg"
@@ -76,10 +56,6 @@
     "apiInfo": {
         "apiName": "AuthenticFoodAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/authentic-food-mini.jpeg"
@@ -91,10 +67,6 @@
     "apiInfo": {
         "apiName": "LocalFestivalsAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/local-festival-mini.jpeg"
@@ -105,10 +77,6 @@
     "apiInfo": {
         "apiName": "RoadTravelAPI",
         "apiArtifacts": {
-            "apiContent": {
-                "api-landing-page-heading": "The Accommodation API",
-                "api-landing-page-description": "The accommodation API allows you to check the availability of rooms in a particular hotel for a given time period. This returns the room types available and a list of amenities provided for the particular room type. This API also allows you to make a reservation for a particular room and also cancel or modify the reservations."
-            },
             "apiImages": {
                 "api-landing-page-image": "/resources/images/accommodation.png",
                 "api-detail-page-image": "/resources/images/road-travel-mini.jpeg"

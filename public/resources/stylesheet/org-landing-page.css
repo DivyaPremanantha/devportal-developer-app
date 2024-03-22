@@ -1,163 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-p {
-  margin: 0;
-}
-
-.div {
-  justify-content: center;
-  align-self: stretch;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-}
-@media (max-width: 991px) {
-  .div {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-.div-2 {
-  align-self: end;
-  display: flex;
-  width: 1045px;
-  max-width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  font-size: 16px;
-  color: #241d6e;
-  font-weight: 400;
-  white-space: nowrap;
-  text-align: right;
-  text-transform: capitalize;
-  letter-spacing: 0.42px;
-  margin: 50px 50px 50px auto;
-}
-@media (max-width: 991px) {
-  .div-2 {
-    margin-right: 10px;
-    flex-wrap: wrap;
-    white-space: initial;
-  }
-}
-.div-3 {
-  disply: flex;
-  flex-direction: column;
-  font-family: Inter, sans-serif;
-  position: relative;
-  overflow: hidden;
-  align-self: stretch;
-  aspect-ratio: 2.81;
-  width: 191px;
-  justify-content: center;
-  align-items: center;
-  padding: 29px 60px;
-}
-@media (max-width: 991px) {
-  .div-3 {
-    white-space: initial;
-    padding: 0 20px;
-  }
-}
-.img {
-  position: absolute;
-  inset: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.div-4 {
-  position: relative;
-}
-.div-5 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-6 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-7 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-8 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-9 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-10 {
-  font-family: Inter, sans-serif;
-  align-self: stretch;
-  margin: auto 0;
-}
-.img-2 {
-  aspect-ratio: 1;
-  object-fit: auto;
-  object-position: center;
-  width: 26px;
-  align-self: stretch;
-  margin: auto 0;
-}
-.div-11 {
+.org-landing-section {
   margin: 100px 40px 20px 40px;
+  gap: 90px;
+  display: flex;
 }
 @media (max-width: 991px) {
   .div-11 {
     max-width: 100%;
     margin: 40px 10px 0 0;
   }
-}
-.div-12 {
-  gap: 90px;
-  display: flex;
 }
 @media (max-width: 991px) {
   .div-12 {
@@ -166,7 +16,7 @@ p {
     gap: 0px;
   }
 }
-.column {
+.sub-section-one {
   display: flex;
   flex-direction: column;
   line-height: normal;
@@ -174,11 +24,11 @@ p {
   margin-left: 0px;
 }
 @media (max-width: 991px) {
-  .column {
+  .sub-section-one {
     width: 100%;
   }
 }
-.div-13 {
+.sub-secttion-one-content {
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -191,19 +41,19 @@ p {
     margin-top: 40px;
   }
 }
-.div-14 {
+.org-heading {
   align-self: baseline;
   letter-spacing: 1.56px;
   font: 50px/50px Abel, sans-serif;
   margin-left: 20px;
 }
 
-
-.div-15 {
+.org-description {
   margin-left: 20px;
   letter-spacing: 0.72px;
   align-self: stretch;
   margin-top: 44px;
+  text-align: justify;
   font: 24px/34px Akaya Telivigala, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
@@ -213,7 +63,7 @@ p {
     margin-top: 40px;
   }
 }
-.div-16 {
+.lern-more-button {
   align-self: center;
   text-align: center;
   border-radius: 32.5px;
@@ -238,17 +88,17 @@ p {
     padding: 0 20px;
   }
 }
-.column-2 {
+.sub-section-two {
   display: flex;
   flex-direction: column;
   line-height: normal;
 }
 @media (max-width: 991px) {
-  .column-2 {
+  .sub-section-two {
     width: 100%;
   }
 }
-.div-17 img{
+.sub-secttion-two-content img{
   height: 100%;
   width: 100%;
   display: flex;
@@ -262,7 +112,7 @@ p {
     white-space: initial;
   }
 }
-.img-3 {
+.org-image {
   aspect-ratio: 1.79;
   object-fit: auto;
   object-position: center;
@@ -271,7 +121,7 @@ p {
   max-width: 100%;
 }
 
-.div-18 {
+.sub-section-two-lower {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -286,18 +136,18 @@ p {
     padding: 0 20px;
   }
 }
-.div-19 {
+.lower-main-section {
   display: flex;
   width: 543px;
   max-width: 100%;
   flex-direction: column;
 }
 @media (max-width: 991px) {
-  .div-19 {
+  .lower-main-section {
     white-space: initial;
   }
 }
-.div-20 {
+.lower-section-one {
   text-align: center;
   align-self: end;
   z-index: 10;
@@ -309,12 +159,12 @@ p {
   text-transform: capitalize;
 }
 @media (max-width: 991px) {
-  .div-20 {
+  .lower-section-one {
     flex-wrap: wrap;
     white-space: initial;
   }
 }
-.div-21 {
+.use-ai {
   font-family: Inter, sans-serif;
   border-radius: 32.5px;
   border: 1px solid #5658ba;
@@ -325,12 +175,12 @@ p {
   padding: 28px 60px;
 }
 @media (max-width: 991px) {
-  .div-21 {
+  .use-ai {
     white-space: initial;
     padding: 0 20px;
   }
 }
-.div-22 {
+.explore-apis {
   font-family: Inter, sans-serif;
   border-radius: 32.5px;
   background-color: #5658ba;
@@ -341,12 +191,12 @@ p {
   padding: 25px 47px;
 }
 @media (max-width: 991px) {
-  .div-22 {
+  .explore-apis {
     white-space: initial;
     padding: 0 20px;
   }
 }
-.div-23 {
+.lower-section-two {
   align-self: start;
   display: flex;
   align-items: flex-start;
@@ -358,7 +208,7 @@ p {
     white-space: initial;
   }
 }
-.div-24 {
+.guide {
   font-family: Inter, sans-serif;
   align-self: end;
   margin-top: 54px;
@@ -370,7 +220,7 @@ p {
     white-space: initial;
   }
 }
-.img-4 {
+.arrow-img {
   aspect-ratio: 0.56;
   object-fit: auto;
   object-position: center;
