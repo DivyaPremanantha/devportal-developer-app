@@ -1,0 +1,15 @@
+{
+    "apiInfo": {
+        "apiName": "LeisureActivitiesAPI",
+        "apiArtifacts": {
+            "apiContent": {
+                "api-landing-page-heading": "The Leisure Activities API",
+                "api-landing-page-description": "The LeisureActivitiesAPI is a comprehensive web service designed to provide users with access to a diverse array of leisure activities, catering to individuals seeking recreation, entertainment, and relaxation. This API serves as a centralized platform for discovering, exploring, and engaging in various leisure pursuits, ranging from outdoor adventures to indoor pastimes and cultural experiences."
+            },
+            "apiImages": {
+                "api-landing-page-image": "/resources/images/leisure.jpeg",
+                "api-detail-page-image": "/resources/images/leisure-mini.jpeg"
+            }
+        }
+    }
+}
