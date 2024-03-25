@@ -16,7 +16,7 @@
         }
     },
     "serverUrl": {
-        "sandboxUrl": "https://accommodation.api.sandbox.abc.com",
-        "productionUrl": "https://accommodation.api.abc.com"
+        "sandboxUrl": "https://leisure.api.sandbox.abc.com",
+        "productionUrl": "https://leisure.api.abc.com"
     }
 }
