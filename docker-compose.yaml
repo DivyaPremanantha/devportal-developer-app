@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  mysqldb:
+    image: mysql:latest
+    container_name: devportal-mysql
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "mysqldb", "-u", "root", "-p$${MYSQL_ROOT_PASSWORD}"]
+      timeout: 20s
+      retries: 10
+    environment:
+      MYSQL_DATABASE: 
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
+      MYSQL_ROOT_PASSWORD: 
+    ports:
+      - "3306:3306" # Map MySQL port
+    expose:
+      - "3306"
+    networks:
+      - devportal-network
+    volumes:
+      - ./devportal-backend/script.sql:/docker-entrypoint-initdb.d/script.sql
+      - ./devportal-backend/my.cnf:/etc/mysql/my.cnf"
+      
+  devportal-backend:
+    platform: linux/x86_64
+    image: divyaprem/devportal-service-backend:latest
+    container_name: devportal-backend
+    healthcheck:
+      test: ["CMD", "ping", "-c", "1", "devportal-backend"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s
+    volumes:
+      - type: bind
+        source: ./devportal-backend/Config.toml
+        target: /home/ballerina/Config.toml
+    ports:
+      - "8080:8080" 
+      - "4000:4000" 
+      - "9090:9090" 
+      - "3001:3001"
+    depends_on:
+      mysqldb:
+        condition: service_healthy
+    networks:
+      - devportal-network
+
+  devportal-webapp:
+    container_name: devportal-webapp
+    build:
+      dockerfile: ./DockerFile
+    volumes:
+      - ./public:/public/public
+      - ./public/resources/.env:/public/node_modules/devportal-app/.env
+    ports:
+      - "3000:3000" 
+    depends_on:
+      mysqldb:
+        condition: service_healthy
+      devportal-backend:
+        condition: service_healthy
+    networks:
+      - devportal-network
+
+networks:
+  devportal-network:
+    driver: bridge
+    name: devportal-network

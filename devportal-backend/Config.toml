@@ -1,0 +1,12 @@
+[devportal.store]
+host = "devportal-mysql"
+port = 3306
+user = ""
+password = ""
+database = ""
+
+[devportal.models]
+awsAccessKeyId = ""
+awsSecretAccessKey = ""
+awsRegion = ""
+
