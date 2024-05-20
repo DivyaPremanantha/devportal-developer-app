@@ -1,27 +1,26 @@
 version: '3'
 
 services:
-  mysqldb:
-    image: mysql:latest
-    container_name: devportal-mysql
+  db:
+    image: postgres:latest
+    container_name: devportal-postgres
     healthcheck:
-      test: [ "CMD", "mysqladmin", "ping", "-h", "mysqldb", "-u", "root", "-p$${MYSQL_ROOT_PASSWORD}"]
+      test: [ "CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
       timeout: 20s
       retries: 10
     environment:
-      MYSQL_DATABASE: 
-      MYSQL_USER: 
-      MYSQL_PASSWORD: 
-      MYSQL_ROOT_PASSWORD: 
+      POSTGRES_DB: devportal
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_ROOT_PASSWORD: root
     ports:
-      - "3306:3306" # Map MySQL port
+      - "5432:5432" 
     expose:
-      - "3306"
+      - "5432"
     networks:
       - devportal-network
     volumes:
       - ./devportal-backend/script.sql:/docker-entrypoint-initdb.d/script.sql
-      - ./devportal-backend/my.cnf:/etc/mysql/my.cnf"
       
   devportal-backend:
     platform: linux/x86_64
@@ -43,7 +42,7 @@ services:
       - "9090:9090" 
       - "3001:3001"
     depends_on:
-      mysqldb:
+      db:
         condition: service_healthy
     networks:
       - devportal-network
@@ -58,7 +57,7 @@ services:
     ports:
       - "3000:3000" 
     depends_on:
-      mysqldb:
+      db:
         condition: service_healthy
       devportal-backend:
         condition: service_healthy
@@ -69,3 +68,6 @@ networks:
   devportal-network:
     driver: bridge
     name: devportal-network
+
+volumes:
+  db-data:

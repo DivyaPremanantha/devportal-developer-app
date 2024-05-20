@@ -1,6 +1,6 @@
 [devportal.store]
 host = "devportal-mysql"
-port = 3306
+port = 5432
 user = ""
 password = ""
 database = ""
