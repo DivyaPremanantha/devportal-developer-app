@@ -3,8 +3,8 @@
         "apiName": "AccommodationAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/accommodation-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/accommodation-mini.jpeg"
             }
         }
     }
@@ -14,8 +14,8 @@
         "apiName": "LeisureActivitiesAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/leisure.jpeg",
-                "api-detail-page-image": "/resources/images/leisure-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/leisure.jpeg",
+                "api-detail-page-image": "/resources/content-mock/api-images/leisure-mini.jpeg"
             }
         }
     }
@@ -25,8 +25,8 @@
         "apiName": "FamousAttractionsAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/attractions-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/attractions-mini.jpeg"
             }
         }
     }
@@ -36,8 +36,8 @@
         "apiName": "HotelAvailabilityAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/hotel-availability-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/hotel-availability-mini.jpeg"
             }
         }
     }
@@ -47,8 +47,8 @@
         "apiName": "AirlineDealsAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/airline-deals-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/airline-deals-mini.jpeg"
             }
         }
     }
@@ -57,8 +57,8 @@
         "apiName": "AuthenticFoodAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/authentic-food-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/authentic-food-mini.jpeg"
             }
         }
     }
@@ -68,8 +68,8 @@
         "apiName": "LocalFestivalsAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/local-festival-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/local-festival-mini.jpeg"
             }
         }
     }
@@ -78,8 +78,8 @@
         "apiName": "RoadTravelAPI",
         "apiArtifacts": {
             "apiImages": {
-                "api-landing-page-image": "/resources/images/accommodation.png",
-                "api-detail-page-image": "/resources/images/road-travel-mini.jpeg"
+                "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
+                "api-detail-page-image": "/resources/content-mock/api-images/road-travel-mini.jpeg"
             }
         }
     }
