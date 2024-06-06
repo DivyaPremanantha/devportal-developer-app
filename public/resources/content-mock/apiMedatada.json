@@ -1,6 +1,7 @@
 [{
     "apiInfo": {
         "apiName": "AccommodationAPI",
+        "authenticate": true,
         "apiArtifacts": {
             "apiImages": {
                 "api-landing-page-image": "/resources/content-mock/api-images/accommodation.png",
